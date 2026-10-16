@@ -13,7 +13,7 @@ Fill up your NEXT_PUBLIC_FAUCET_ADDRESS with some SOL, set the secret key and th
 solana-keygen new --no-bip39-passphrase -o faucetkey.json
 ```
 
-2. Copy faucetkey.json (privatekey) and paste it into SENDER_SECRET_KEY on vercel (or in your .env.development.local)
+2. Copy faucetkey.json (privatekey) and paste it into SENDER_SECRET_KEY on vercel (or in your your5.env.development.local)
 
 ```bash
 cat faucetkey.json
